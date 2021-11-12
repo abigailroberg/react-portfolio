@@ -1,16 +1,10 @@
 import React from 'react'
+import Nav from '../Nav'
 
 function Header() {
     return <div>
-        <h1> abigail roberg </h1>
-        <nav>
-            <ul>
-                <li>about</li>
-                <li>portfolio</li>
-                <li>contact</li>
-                <li>resume</li>
-            </ul>
-        </nav>
+        <h1>abigail roberg</h1>
+        <Nav />
     </div>
 }
 

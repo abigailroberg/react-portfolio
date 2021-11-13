@@ -10,10 +10,10 @@ function App() {
     
     <main>
       <div className="App">
-        {/* <Header /> */}
-        <About />
-        {/* <Portfolio />
-        <Contact />
+        <Header />
+        {/* <About /> */}
+        <Portfolio />
+        {/* <Contact />
         <Footer /> */}
       </div>
     </main>

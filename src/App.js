@@ -11,10 +11,10 @@ function App() {
     <main>
       <div className="App">
         <Header />
-        {/* <About /> */}
+        {/* <About />
         <Portfolio />
-        {/* <Contact />
-        <Footer /> */}
+        <Contact /> */}
+        <Footer />
       </div>
     </main>
   );

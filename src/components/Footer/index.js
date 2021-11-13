@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Footer() {
-    return <div>
-        thanks for stopping by!
+    return <div className='footer'>
+        abigail m roberg - 2021
     </div>
 }
 

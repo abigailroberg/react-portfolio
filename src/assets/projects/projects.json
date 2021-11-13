@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Bait n Tracker",
+        "photo": "",
+        "description": "An app to track the ongoing results of fishing tournaments. Utilizes SQL & Express.js with a clean front-end to allow users to view leaderboards, create an account to enter the competition, and upload data & photos of fish caught.",
+        "link": "https://github.com/abigailroberg/bait-and-tracker"
+    },
+    {
+        "title": "Employee Tracker",
+        "photo": "",
+        "description": "An app to keep track of employees through roles, departments, and managers. Utilizes SQL & Express.js to provide functionality to create and view employees, roles and departments, and update an employee role.",
+        "link": "https://github.com/abigailroberg/sql-employees"
+    },
+    {
+        "title": "Budget Tracker",
+        "photo": "",
+        "description": "An app to keep track of expenses and income. Utilizes IndexedDB to provide offline access, and is a PWA. Users input transactions, which are saved and graphed on screen.",
+        "link": "https://github.com/abigailroberg/budget-tracker-pwa"
+    }
+]

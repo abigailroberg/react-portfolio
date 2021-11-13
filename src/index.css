@@ -2,7 +2,7 @@
   --bg-color: #FCF2EE;
   --txt-color: #0F3857;
   --blue-accent: #91C4F2;
-  --org-accent: #C57B57;
+  --org-accent: #dbc9c1;
   --grn-accent: #04A777;
 }
 
@@ -15,6 +15,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-color);
   color: var(--txt-color);
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card {
+  color: var(--txt-color);
+  background-color: var(--org-accent);
 }
 
 code {

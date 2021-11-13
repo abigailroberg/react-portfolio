@@ -4,9 +4,9 @@ import Project from "../Project"
 
 function Portfolio() {
     return <div>
-        <Grid container spacing={8} justifyContent='center'>
+        <Grid container rowSpacing={6} columnSpacing={6} justifyContent='center'>
             <Grid item xs={12} sm={12} md={6}>
-                <Project />
+                <Project className='card'/>
             </Grid>
             <Grid item xs={12} sm={12} md={6}>
                 <Project />

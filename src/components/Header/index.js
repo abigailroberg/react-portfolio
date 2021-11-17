@@ -1,16 +1,33 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import Nav from '../Nav'
 
-function Header() {
+function Header(props) {
+    const {
+        pages = [],
+        setCurrentPage,
+        currentPage
+    } = props
+
     return <div>
+        <h1>{currentPage}</h1>
         <Grid container spacing={3}>
             <Grid item xs={3}>
                 <h1>abigail roberg</h1>
             </Grid>
             <Grid item xs={2} />
             <Grid item xs={7}>
-                <Nav />
+                <nav>
+        <ul>
+        <Grid container spacing={4}>
+            {pages.map((page, i) => {
+                return <Grid item xs={3}>
+                <li onClick={() => {setCurrentPage(page)}}>{page}
+                </li>
+            </Grid>
+            })}
+        </Grid>
+        </ul>
+    </nav>
             </Grid>
         </Grid>
     </div>

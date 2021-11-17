@@ -4,14 +4,15 @@ import React from "react"
 function Project(project) {
     return <Card>
         <CardContent className="card">
-            <CardMedia
-                component='img'
-                image={require ('../../assets/coffee.jpg')}
-                alt='alt text'
-            />
-            <Typography variant="h5">
+            <Typography variant="h5"> 
                 {project.title}
             </Typography>
+            <CardMedia
+                component='img'
+                alt={project.img}
+                src={require(`../../assets/img/pic.jpg`)}
+                height='200'
+            />
             <Typography>
                {project.desc}
             </Typography>

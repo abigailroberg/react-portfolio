@@ -4,12 +4,10 @@ import React from 'react'
 function Header(props) {
     const {
         pages = [],
-        setCurrentPage,
-        currentPage
+        setCurrentPage
     } = props
 
     return <div>
-        <h1>{currentPage}</h1>
         <Grid container spacing={3}>
             <Grid item xs={3}>
                 <h1>abigail roberg</h1>

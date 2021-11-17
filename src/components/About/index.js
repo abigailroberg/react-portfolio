@@ -1,11 +1,17 @@
 import { Grid } from "@mui/material"
 import React from "react"
 
+
 function About() {
     return <div>
         <Grid container spacing={4}>
             <Grid item xs={3}>
-                <img src='../assets/coffee.jpg' alt='Abigail Roberg sips coffee in front of a brick wall'></img>
+                <img 
+                    src={require('../../assets/img/pic.jpg')} 
+                    alt='Abigail Roberg sips coffee in front of a brick wall'
+                    height='100%' 
+                    >
+                </img>
             </Grid>
             <Grid item xs={1} />
             <Grid item xs={7}>

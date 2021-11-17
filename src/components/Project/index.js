@@ -3,16 +3,16 @@ import React from "react"
 
 function Project(project) {
     return <Card>
+        <CardMedia 
+                style={{ height: '200', width: '500', padding: '5%' }}
+                component='img'
+                alt='alt text'
+                image='../../assets/img/pic.jpg'
+        />
         <CardContent className="card">
             <Typography variant="h5"> 
                 {project.title}
             </Typography>
-            <CardMedia
-                component='img'
-                alt={project.img}
-                src={require(`../../assets/img/pic.jpg`)}
-                height='200'
-            />
             <Typography>
                {project.desc}
             </Typography>

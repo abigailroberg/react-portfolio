@@ -25,12 +25,14 @@ body {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
   font-family: 'Brush Script MT', cursive;
-  font-size: 18px;
-  align-content: right;
+  font-size: 24px;
   width: 100%;
+  flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  text-decoration: none;
 }
 
 code {

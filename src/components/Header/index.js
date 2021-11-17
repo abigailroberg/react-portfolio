@@ -19,7 +19,8 @@ function Header(props) {
         <Grid container spacing={4}>
             {pages.map((page, i) => {
                 return <Grid item xs={3}>
-                <li onClick={() => {setCurrentPage(page)}}>{page}
+                <li onClick={() => {setCurrentPage(page)}}>
+                    {page}
                 </li>
             </Grid>
             })}

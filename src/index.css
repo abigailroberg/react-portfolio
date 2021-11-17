@@ -38,4 +38,12 @@ code {
     monospace;
 }
 
+#contact-form input, textarea {
+  margin-top: 2px;
+  background-color: var(--org-accent);
+  border: none;
+}
 
+#contact-form input {
+  width: 15%;
+}

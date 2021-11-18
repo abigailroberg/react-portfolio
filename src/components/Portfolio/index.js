@@ -7,8 +7,8 @@ function Portfolio() {
     return <div>
         <Grid container rowSpacing={6} columnSpacing={6} justifyContent='center'>
             {projects.map((project, i) => {
-                return <Grid item xs={12} sm={12} md={6}>
-                        <Project className='card' title={project.title} desc={project.description} img={project.photo} />
+                return <Grid item xs={12} sm={12} md={6}  key={project.title}>
+                        <Project className='card' title={project.title} desc={project.description} img={project.photo} alt={project.alt} url={project.link} />
                        </Grid> 
             })}  
         </Grid>

@@ -18,7 +18,7 @@ function Header(props) {
         <ul>
         <Grid container spacing={4}>
             {pages.map((page, i) => {
-                return <Grid item xs={3}>
+                return <Grid item xs={3} key={page}>
                 <li onClick={() => {setCurrentPage(page)}}>
                     {page}
                 </li>

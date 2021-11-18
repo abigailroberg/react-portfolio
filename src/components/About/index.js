@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material"
 import React from "react"
+import headshot from '../../assets/img/headshot.jpg'
 
 
 function About() {
@@ -7,9 +8,9 @@ function About() {
         <Grid container spacing={4}>
             <Grid item xs={3}>
                 <img 
-                    src={require('../../assets/img/pic.jpg')} 
+                    src={headshot} 
                     alt='Abigail Roberg sips coffee in front of a brick wall'
-                    height='100%' 
+                    height='200' 
                     >
                 </img>
             </Grid>

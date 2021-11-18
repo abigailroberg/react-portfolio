@@ -25,6 +25,7 @@ function App() {
   return (
     
     <main>
+      <div className='wrapper'>
       <div className="App">
         <Header 
           pages={pages}
@@ -33,6 +34,7 @@ function App() {
         />
         <div>
           {render()}
+        </div>
         </div>
         <Footer />
       </div>

@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 import { useState } from 'react'
 
 function App() {
-  const pages = ['about', 'portfolio', 'contact', 'resume']
+  const pages = ['about', 'portfolio', 'contact']
 
   const [currentPage, setCurrentPage] = useState(pages[0])
 
@@ -16,7 +16,6 @@ function App() {
         case "about": return <About />
         case "portfolio": return <Portfolio />
         case "contact": return <Contact />
-        case "resume": return <div>resume</div>
         default: return <About />
     }
 }

@@ -8,35 +8,35 @@
     },
     {
         "title": "Employee Tracker",
-        "photo": "headshot.jpg",
+        "photo": "employees.png",
         "description": "An app to keep track of employees through roles, departments, and managers. Utilizes SQL & Express.js to provide functionality to create and view employees, roles and departments, and update an employee role.",
         "link": "https://github.com/abigailroberg/sql-employees",
         "alt": "Screenshot of Employee Tracker backend options"
     },
     {
         "title": "Budget Tracker",
-        "photo": "headshot.jpg",
+        "photo": "budgettracker.png",
         "description": "An app to keep track of expenses and income. Utilizes IndexedDB to provide offline access, and is a PWA. Users input transactions, which are saved and graphed on screen.",
         "link": "https://github.com/abigailroberg/budget-tracker-pwa",
         "alt": "Screenshot of Budget Tracker interface"
     },
     {
         "title": "Tech Blog",
-        "photo": "headshot.jpg",
+        "photo": "techblog.png",
         "description": "An app to share thoughts about tech. Users can create accounts, upload ideas, and comment on other posts. An SQL backend supports an easy-to-navigate front end",
         "link": "https://github.com/abigailroberg/tech-blog",
         "alt": "Screenshot of Tech Blog website"
     },
     {
         "title": "Photo Portfolio",
-        "photo": "headshot.jpg",
+        "photo": "photoport.png",
         "description": "A single-page photography portfolio built in React. Sample photos, a biography, and contact box can be accessed.",
         "link": "https://github.com/abigailroberg/photo-port",
         "alt": "Screenshot of React.js photo portfolio"
     },
     {
         "title": "Deep Thoughts",
-        "photo":"headshot.jpg",
+        "photo":"deepthoughts.png",
         "description": "A full MERN social media application where users can post thoughts and reactions to other thoughts, add friends, and view profiles",
         "link": "https://github.com/abigailroberg/deep-thoughts",
         "alt": "Screenshot of Deep Thoughts website"

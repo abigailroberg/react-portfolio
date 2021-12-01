@@ -21,7 +21,7 @@ function Project(project) {
                 height='200'
                 component='img'
                 alt={alt}
-                src={`../../assets/img/${img}`}
+                src={require(`../../assets/img/${img}`)}
             />
             <Typography>
                {desc}

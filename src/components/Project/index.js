@@ -21,7 +21,7 @@ function Project(project) {
                 height='200'
                 component='img'
                 alt={alt}
-                src={require(`../../assets/img/${img}`)}
+                src={`${process.env.PUBLIC_URL}/assets/img/${img}`}
             />
             <Typography>
                {desc}

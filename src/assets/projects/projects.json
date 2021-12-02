@@ -40,5 +40,12 @@
         "description": "A full MERN social media application where users can post thoughts and reactions to other thoughts, add friends, and view profiles",
         "link": "https://github.com/abigailroberg/deep-thoughts",
         "alt": "Screenshot of Deep Thoughts website"
+    },
+    {
+        "title": "Health Hacker",
+        "photo": "healthhacker.PNG",
+        "description": "A full MERN stack application where users can connect to help each other reach health goals. Users create accounts, add friends, and upload activities and food, along with calorie counts.",
+        "link": "https://github.com/abigailroberg/health-tracker",
+        "alt": "Screenshot of Health Hacker upload forms"
     }
 ]
